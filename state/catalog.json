@@ -27,12 +27,39 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/the-dear-hunter-act-i-the-lake-south-the-river-north.md",
+    "artist": "The Dear Hunter",
+    "album": "Act I: The Lake South, The River North",
+    "year": 2006,
+    "slug": "the-dear-hunter-act-i-the-lake-south-the-river-north",
+    "cover_path": "/covers/the-dear-hunter-act-i-the-lake-south-the-river-north.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/yeah-yeah-yeahs-fever-to-tell.md",
+    "artist": "Yeah Yeah Yeahs",
+    "album": "Fever To Tell",
+    "year": 2003,
+    "slug": "yeah-yeah-yeahs-fever-to-tell",
+    "cover_path": "/covers/yeah-yeah-yeahs-fever-to-tell.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/anna-von-hausswolff-iconoclasts.md",
     "artist": "Anna von Hausswolff",
     "album": "Iconoclasts",
     "year": 2024,
     "slug": "anna-von-hausswolff-iconoclasts",
     "cover_path": "/covers/anna-von-hausswolff-iconoclasts.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/rosalia-lux.md",
+    "artist": "Rosal\u00eda",
+    "album": "LUX",
+    "year": 2025,
+    "slug": "rosal-a-lux",
+    "cover_path": "/covers/rosal-a-lux.jpg",
     "status": "complete"
   },
   {
@@ -54,12 +81,39 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/sharon-van-etten-sharon-van-etten-the-attachment-theory.md",
+    "artist": "Sharon Van Etten",
+    "album": "Sharon Van Etten & The Attachment Theory",
+    "year": 2025,
+    "slug": "sharon-van-etten-sharon-van-etten-the-attachment-theory",
+    "cover_path": "/covers/sharon-van-etten-sharon-van-etten-the-attachment-theory.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-prodigy-music-for-the-jilted-generation.md",
+    "artist": "The Prodigy",
+    "album": "Music for the Jilted Generation",
+    "year": 1994,
+    "slug": "the-prodigy-music-for-the-jilted-generation",
+    "cover_path": "/covers/the-prodigy-music-for-the-jilted-generation.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/king-crimson-in-the-court-of-the-crimson-king.md",
     "artist": "King Crimson",
     "album": "In The Court Of The Crimson King",
     "year": 1969,
     "slug": "king-crimson-in-the-court-of-the-crimson-king",
     "cover_path": "/covers/king-crimson-in-the-court-of-the-crimson-king.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-notwist-neon-golden.md",
+    "artist": "The Notwist",
+    "album": "Neon Golden",
+    "year": 2002,
+    "slug": "the-notwist-neon-golden",
+    "cover_path": "/covers/the-notwist-neon-golden.jpg",
     "status": "complete"
   },
   {
