@@ -15,7 +15,7 @@ import catalog from '../../../state/catalog.json';
 				<a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/albums/${album.slug}`}>
 					<div class="image-container">
                         <img 
-                            src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.jpg`} 
+                            src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.svg`} 
                             alt={album.album}
                             transition:name={`cover-${album.slug}`} 
                         />
