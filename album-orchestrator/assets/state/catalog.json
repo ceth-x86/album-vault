@@ -1,0 +1,74 @@
+[
+  {
+    "source_file": "content/my_collection/king-hannah-big-swimmer.md",
+    "artist": "King Hannah",
+    "album": "Big Swimmer",
+    "year": 2024,
+    "slug": "king-hannah-big-swimmer",
+    "cover_path": "/covers/king-hannah-big-swimmer.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-dillinger-escape-plan-dissociation.md",
+    "artist": "The Dillinger Escape Plan",
+    "album": "Dissociation",
+    "year": 2016,
+    "slug": "the-dillinger-escape-plan-dissociation",
+    "cover_path": "/covers/the-dillinger-escape-plan-dissociation.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/anna-von-hausswolff-iconoclasts.md",
+    "artist": "Anna von Hausswolff",
+    "album": "Iconoclasts",
+    "year": 2024,
+    "slug": "anna-von-hausswolff-iconoclasts",
+    "cover_path": "/covers/anna-von-hausswolff-iconoclasts.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/metric-formentera.md",
+    "artist": "Metric",
+    "album": "Formentera",
+    "year": 2022,
+    "slug": "metric-formentera",
+    "cover_path": "/covers/metric-formentera.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/king-crimson-in-the-court-of-the-crimson-king.md",
+    "artist": "King Crimson",
+    "album": "In The Court Of The Crimson King",
+    "year": 1969,
+    "slug": "king-crimson-in-the-court-of-the-crimson-king",
+    "cover_path": "/covers/king-crimson-in-the-court-of-the-crimson-king.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/can-tago-mago.md",
+    "artist": "Can",
+    "album": "Tago Mago",
+    "year": 1971,
+    "slug": "can-tago-mago",
+    "cover_path": "/covers/can-tago-mago.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/foals-antidotes.md",
+    "artist": "Foals",
+    "album": "Antidotes",
+    "year": 2008,
+    "slug": "foals-antidotes",
+    "cover_path": "/covers/foals-antidotes.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/u2-pop.md",
+    "artist": "U2",
+    "album": "Pop",
+    "year": 1997,
+    "slug": "u2-pop",
+    "cover_path": null,
+    "status": "needs_review"
+  }
+]
