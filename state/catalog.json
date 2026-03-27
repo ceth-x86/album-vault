@@ -207,6 +207,15 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/depeche-mode-violator.md",
+    "artist": "Depeche Mode",
+    "album": "Violator",
+    "year": 1990,
+    "slug": "depeche-mode-violator",
+    "cover_path": "/covers/depeche-mode-violator.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/fates-warning-parallels.md",
     "artist": "Fates Warning",
     "album": "Parallels",
