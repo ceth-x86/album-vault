@@ -3,17 +3,30 @@ import Layout from '../layouts/Layout.astro';
 import catalog from '../../../state/catalog.json';
 ---
 
-<Layout title="Album Library">
-	<h1>My Album Library</h1>
+<Layout title="Album Vault">
+	<header class="hero">
+        <h1 class="main-title">ALBUM VAULT</h1>
+        <p class="subtitle">A curated index of deep listening experiences.</p>
+    </header>
+
 	<ul class="album-grid">
 		{catalog.map((album) => (
 			<li class="album-card">
 				<a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/albums/${album.slug}`}>
-					<img src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.jpg`} alt={album.album} />
+					<div class="image-container">
+                        <img 
+                            src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.jpg`} 
+                            alt={album.album}
+                            transition:name={`cover-${album.slug}`} 
+                        />
+                    </div>
 					<div class="album-info">
-						<h2>{album.album}</h2>
-						<p>{album.artist}</p>
-						<p>{album.year}</p>
+                        <div class="meta-row">
+                            <span class="year">{album.year}</span>
+                            <span class="divider">/</span>
+                            <span class="artist-name">{album.artist}</span>
+                        </div>
+						<h2 class="album-title">{album.album}</h2>
 					</div>
 				</a>
 			</li>
@@ -22,48 +35,91 @@ import catalog from '../../../state/catalog.json';
 </Layout>
 
 <style>
-	h1 {
-		font-size: 3rem;
-		font-weight: 700;
-		line-height: 1;
+	.hero {
 		text-align: center;
-		margin-bottom: 1em;
+		margin-bottom: 8rem;
+        padding-top: 4rem;
 	}
+	.main-title {
+		font-size: 6rem;
+		letter-spacing: -0.02em;
+		margin: 0;
+        line-height: 0.9;
+        text-transform: uppercase;
+	}
+    .subtitle {
+        font-family: var(--mono);
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+
 	.album-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 2rem;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 6rem 4rem;
 		padding: 0;
 		list-style: none;
 	}
-	.album-card {
-		background: #23262d;
-		border-radius: 8px;
-		overflow: hidden;
-		transition: transform 0.2s;
-	}
+
+    /* Staggered grid effect */
+    .album-card:nth-child(even) {
+        transform: translateY(4rem);
+    }
+
 	.album-card a {
 		text-decoration: none;
 		color: inherit;
+        display: block;
 	}
-	.album-card:hover {
-		transform: translateY(-5px);
-	}
+	
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 4px;
+        transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    
+    .album-card:hover .image-container {
+        transform: scale(1.02);
+    }
+
 	.album-card img {
 		width: 100%;
 		aspect-ratio: 1;
 		object-fit: cover;
+        display: block;
 	}
+
 	.album-info {
-		padding: 1rem;
+		padding: 2rem 0;
 	}
-	.album-info h2 {
+    
+    .meta-row {
+        font-family: var(--mono);
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .divider { opacity: 0.3; }
+
+	.album-title {
 		margin: 0;
-		font-size: 1.25rem;
+		font-size: 2.5rem;
+        line-height: 1.1;
+        letter-spacing: -0.01em;
 	}
-	.album-info p {
-		margin: 0.5rem 0 0;
-		color: #ccc;
-		font-size: 0.9rem;
-	}
+
+    @media (max-width: 768px) {
+        .main-title { font-size: 3.5rem; }
+        .album-grid { grid-template-columns: 1fr; gap: 4rem; }
+        .album-card:nth-child(even) { transform: none; }
+    }
 </style>

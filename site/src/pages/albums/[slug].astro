@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import catalog from '../../../../state/catalog.json';
 import fs from 'node:fs';
 import path from 'node:path';
+import { Marked } from 'marked';
 
 export function getStaticPaths() {
   return catalog.map((album) => ({
@@ -12,87 +13,155 @@ export function getStaticPaths() {
 }
 
 const { album } = Astro.props;
-// Use process.cwd() to get the root directory reliably during build
 const guidePath = path.join(process.cwd(), '..', album.source_file);
 let guideContent = '';
 
 if (fs.existsSync(guidePath)) {
   guideContent = fs.readFileSync(guidePath, 'utf-8');
-  // Remove the first H1 header from the content as it's already displayed in the UI
+  // Strip main header
   guideContent = guideContent.replace(/^#\s.*?\n/, '');
 }
 
-// Simple markdown to html for the guide
-import { Marked } from 'marked';
 const marked = new Marked();
 const guideHtml = marked.parse(guideContent);
 ---
 
 <Layout title={`${album.album} - ${album.artist}`}>
-	<div class="album-detail">
-        <div class="header">
-            <img src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.jpg`} alt={album.album} />
-            <div class="meta">
-                <h1>{album.album}</h1>
-                <h2>{album.artist}</h2>
-                <p class="year">{album.year}</p>
-                <a href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/'} class="back-link">← Back to library</a>
+	<div class="editorial-container">
+        <aside class="album-sidebar">
+            <div class="sidebar-sticky">
+                <img 
+                    src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.jpg`} 
+                    alt={album.album}
+                    class="hero-cover"
+                    transition:name={`cover-${album.slug}`} 
+                />
+                <div class="quick-meta">
+                    <p class="label">Artist</p>
+                    <p class="value">{album.artist}</p>
+                    <p class="label">Release Year</p>
+                    <p class="value">{album.year}</p>
+                    <a href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/'} class="back-nav">← Back to archive</a>
+                </div>
             </div>
-        </div>
-        
-        {guideContent ? (
-            <div class="guide-content" set:html={guideHtml} />
-        ) : (
-            <div class="no-guide">
-                <p>No analytical guide available for this album yet.</p>
-            </div>
-        )}
+        </aside>
+
+        <article class="album-content">
+            <header class="content-header">
+                <h1 class="main-title">{album.album}</h1>
+            </header>
+            
+            <div class="guide-body" set:html={guideHtml} />
+        </article>
 	</div>
 </Layout>
 
 <style is:global>
-    .guide-content h1 { font-size: 2.5rem; margin-top: 2rem; border-bottom: 1px solid #444; padding-bottom: 0.5rem; }
-    .guide-content h2 { font-size: 1.8rem; margin-top: 1.5rem; color: #883aea; }
-    .guide-content p { margin-bottom: 1rem; line-height: 1.8; }
-    .guide-content blockquote { border-left: 4px solid #883aea; padding-left: 1rem; font-style: italic; color: #ccc; margin: 1.5rem 0; }
-    .guide-content strong { color: #fff; }
+    /* Editorial Typography inside guide-body */
+    .guide-body h2 {
+        font-family: var(--serif);
+        font-size: 2.5rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-bottom: 1rem;
+    }
+    .guide-body p {
+        font-size: 1.15rem;
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+        color: rgba(255,255,255,0.85);
+        font-weight: 300;
+    }
+    .guide-body blockquote {
+        margin: 4rem 0;
+        padding: 0;
+        font-family: var(--serif);
+        font-size: 2rem;
+        font-style: italic;
+        color: var(--text-main);
+        line-height: 1.3;
+        text-align: center;
+        border: none;
+    }
+    .guide-body blockquote p { font-size: inherit; color: inherit; }
+    .guide-body strong {
+        color: var(--text-main);
+        font-weight: 600;
+        letter-spacing: 0.02em;
+    }
+    .guide-body ul {
+        list-style: none;
+        padding: 0;
+        margin: 2rem 0;
+    }
+    .guide-body li {
+        margin-bottom: 1.5rem;
+        padding-left: 2rem;
+        position: relative;
+    }
+    .guide-body li::before {
+        content: "—";
+        position: absolute;
+        left: 0;
+        color: var(--text-muted);
+    }
 </style>
 
 <style>
-	.album-detail {
-		max-width: 900px;
-		margin: 0 auto;
-        padding-top: 2rem;
-	}
-    .header {
-        display: flex;
-        gap: 3rem;
+	.editorial-container {
+		display: grid;
+		grid-template-columns: 400px 1fr;
+		gap: 6rem;
         align-items: flex-start;
-        margin-bottom: 4rem;
+	}
+
+    .sidebar-sticky {
+        position: sticky;
+        top: 4rem;
     }
-    .header img {
-        width: 300px;
-        height: 300px;
-        border-radius: 12px;
-        box-shadow: 0 20px 40px rgba(0,0,0,0.5);
-    }
-    .meta h1 { margin: 0; font-size: 3.5rem; line-height: 1.1; }
-    .meta h2 { margin: 0.5rem 0; font-size: 2rem; color: #ccc; font-weight: 400; }
-    .year { font-size: 1.5rem; color: #883aea; font-weight: 700; margin-top: 1rem; }
-    .back-link { display: inline-block; margin-top: 2rem; color: #883aea; text-decoration: none; font-weight: 600; }
-    .back-link:hover { text-decoration: underline; }
     
-    .guide-content {
-        background: #1a1d23;
-        padding: 2rem 3rem;
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    .hero-cover {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+        border-radius: 4px;
     }
-    .no-guide {
-        text-align: center;
-        padding: 4rem;
-        background: #1a1d23;
-        border-radius: 16px;
-        color: #888;
+
+    .quick-meta {
+        margin-top: 3rem;
+        font-family: var(--mono);
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+    }
+    .label { color: var(--text-muted); margin: 1.5rem 0 0.25rem; }
+    .value { color: var(--text-main); margin: 0; font-size: 0.9rem; }
+    
+    .back-nav {
+        display: inline-block;
+        margin-top: 4rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .back-nav:hover { color: var(--text-main); }
+
+    .album-content {
+        max-width: 700px;
+    }
+    .main-title {
+        font-size: 8rem;
+        line-height: 0.85;
+        letter-spacing: -0.04em;
+        margin: 0 0 4rem;
+    }
+
+    @media (max-width: 1024px) {
+        .editorial-container { grid-template-columns: 1fr; gap: 4rem; }
+        .sidebar-sticky { position: static; }
+        .hero-cover { max-width: 400px; }
+        .main-title { font-size: 5rem; }
     }
 </style>
