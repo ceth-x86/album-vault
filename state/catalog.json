@@ -1,5 +1,14 @@
 [
   {
+    "source_file": "content/my_collection/clipse-let-god-sort-em-out.md",
+    "artist": "Clipse",
+    "album": "Let God Sort Em Out",
+    "year": 2025,
+    "slug": "clipse-let-god-sort-em-out",
+    "cover_path": "/covers/clipse-let-god-sort-em-out.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/king-hannah-big-swimmer.md",
     "artist": "King Hannah",
     "album": "Big Swimmer",
@@ -36,6 +45,15 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/london-grammar-if-you-wait.md",
+    "artist": "London Grammar",
+    "album": "If You Wait",
+    "year": 2013,
+    "slug": "london-grammar-if-you-wait",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "content/my_collection/king-crimson-in-the-court-of-the-crimson-king.md",
     "artist": "King Crimson",
     "album": "In The Court Of The Crimson King",
@@ -54,6 +72,15 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/dream-theater-falling-into-infinity.md",
+    "artist": "Dream Theater",
+    "album": "Falling Into Infinity",
+    "year": 1997,
+    "slug": "dream-theater-falling-into-infinity",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "content/my_collection/foals-antidotes.md",
     "artist": "Foals",
     "album": "Antidotes",
@@ -63,12 +90,48 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/iq-almost-but-not-quite.md",
+    "artist": "IQ",
+    "album": "Almost But Not Quite",
+    "year": 2025,
+    "slug": "iq-almost-but-not-quite",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "content/my_collection/u2-pop.md",
     "artist": "U2",
     "album": "Pop",
     "year": 1997,
     "slug": "u2-pop",
     "cover_path": "/covers/u2-pop.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/fates-warning-parallels.md",
+    "artist": "Fates Warning",
+    "album": "Parallels",
+    "year": 1991,
+    "slug": "fates-warning-parallels",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
+    "source_file": "content/my_collection/low-i-could-live-in-hope.md",
+    "artist": "Low",
+    "album": "I Could Live In Hope",
+    "year": 1994,
+    "slug": "low-i-could-live-in-hope",
+    "cover_path": "/covers/low-i-could-live-in-hope.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/idles-tangk.md",
+    "artist": "IDLES",
+    "album": "TANGK",
+    "year": 2024,
+    "slug": "idles-tangk",
+    "cover_path": "/covers/idles-tangk.jpg",
     "status": "complete"
   }
 ]
