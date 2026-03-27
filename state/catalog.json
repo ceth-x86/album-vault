@@ -50,8 +50,8 @@
     "album": "If You Wait",
     "year": 2013,
     "slug": "london-grammar-if-you-wait",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/london-grammar-if-you-wait.jpg",
+    "status": "complete"
   },
   {
     "source_file": "content/my_collection/king-crimson-in-the-court-of-the-crimson-king.md",
@@ -77,8 +77,8 @@
     "album": "Falling Into Infinity",
     "year": 1997,
     "slug": "dream-theater-falling-into-infinity",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/dream-theater-falling-into-infinity.jpg",
+    "status": "complete"
   },
   {
     "source_file": "content/my_collection/foals-antidotes.md",
@@ -95,8 +95,8 @@
     "album": "Almost But Not Quite",
     "year": 2025,
     "slug": "iq-almost-but-not-quite",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/iq-almost-but-not-quite.jpg",
+    "status": "complete"
   },
   {
     "source_file": "content/my_collection/u2-pop.md",
@@ -113,8 +113,8 @@
     "album": "Parallels",
     "year": 1991,
     "slug": "fates-warning-parallels",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/fates-warning-parallels.jpg",
+    "status": "complete"
   },
   {
     "source_file": "content/my_collection/low-i-could-live-in-hope.md",
