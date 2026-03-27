@@ -12,11 +12,14 @@ export function getStaticPaths() {
 }
 
 const { album } = Astro.props;
-const guidePath = path.resolve('../', album.source_file);
+// Use process.cwd() to get the root directory reliably during build
+const guidePath = path.join(process.cwd(), '..', album.source_file);
 let guideContent = '';
 
 if (fs.existsSync(guidePath)) {
   guideContent = fs.readFileSync(guidePath, 'utf-8');
+  // Remove the first H1 header from the content as it's already displayed in the UI
+  guideContent = guideContent.replace(/^#\s.*?\n/, '');
 }
 
 // Simple markdown to html for the guide
