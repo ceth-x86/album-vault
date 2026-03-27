@@ -8,8 +8,8 @@ import catalog from '../../../state/catalog.json';
 	<ul class="album-grid">
 		{catalog.map((album) => (
 			<li class="album-card">
-				<a href={`${import.meta.env.BASE_URL}albums/${album.slug}`}>
-					<img src={album.cover_path ? `${import.meta.env.BASE_URL}${album.cover_path.slice(1)}` : `${import.meta.env.BASE_URL}placeholder-cover.jpg`} alt={album.album} />
+				<a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/albums/${album.slug}`}>
+					<img src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.jpg`} alt={album.album} />
 					<div class="album-info">
 						<h2>{album.album}</h2>
 						<p>{album.artist}</p>
