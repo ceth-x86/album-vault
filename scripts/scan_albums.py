@@ -48,7 +48,7 @@ def main():
                 
                 slug = slugify(f"{artist}-{album}")
                 cover_filename = f"{slug}.jpg"
-                cover_path = os.path.join('public', 'covers', cover_filename)
+                cover_path = os.path.join('site', 'public', 'covers', cover_filename)
                 
                 status = 'pending'
                 if os.path.exists(cover_path):

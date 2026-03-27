@@ -37,7 +37,7 @@ def main():
         
         # 1. Fetch (Using updated script that handles MBID search internally)
         cover_filename = f"{album['slug']}.jpg"
-        cover_path = os.path.join('public', 'covers', cover_filename)
+        cover_path = os.path.join('site', 'public', 'covers', cover_filename)
         
         fetch_output = run_script('scripts/fetch_cover.py', [
             '--artist', album['artist'],
