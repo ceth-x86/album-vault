@@ -26,13 +26,6 @@ if (fs.existsSync(guidePath)) {
 
 const marked = new Marked();
 const guideHtml = marked.parse(guideContent);
-
-// Helper to render rating stars
-const renderRating = (score: number) => {
-    const fullStars = Math.floor(score);
-    const hasHalfStar = score % 1 !== 0;
-    return '★'.repeat(fullStars) + (hasHalfStar ? '½' : '') + '☆'.repeat(5 - Math.ceil(score));
-};
 ---
 
 <Layout title={`${album.album} - ${album.artist}`}>
@@ -49,7 +42,7 @@ const renderRating = (score: number) => {
                     {album.rating && (
                         <div class="rating-box">
                             <p class="label">Rating</p>
-                            <p class="rating-value">{renderRating(album.rating)} <span class="score">{album.rating}</span></p>
+                            <p class="value">{album.rating}</p>
                         </div>
                     )}
                     <p class="label">Artist</p>
@@ -155,20 +148,9 @@ const renderRating = (score: number) => {
         letter-spacing: 0.05em;
     }
     .rating-box {
-        margin-bottom: 2rem;
-        padding-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1.25rem;
         border-bottom: 1px solid rgba(255,255,255,0.05);
-    }
-    .rating-value {
-        color: #ffcc00;
-        font-size: 1rem;
-        margin: 0.5rem 0 0;
-        letter-spacing: 0.1em;
-    }
-    .score {
-        color: var(--text-muted);
-        margin-left: 0.5rem;
-        font-size: 0.8rem;
     }
     .label { color: var(--text-muted); margin: 1.25rem 0 0.2rem; }
     .value { color: var(--text-main); margin: 0; font-size: 0.8rem; }
