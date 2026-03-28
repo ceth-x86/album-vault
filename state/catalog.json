@@ -9,12 +9,30 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/deftones-diamond-eyes.md",
+    "artist": "Deftones",
+    "album": "Diamond Eyes",
+    "year": 2010,
+    "slug": "deftones-diamond-eyes",
+    "cover_path": "/covers/deftones-diamond-eyes.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/the-national-trouble-will-find-me.md",
     "artist": "The National",
     "album": "Trouble Will Find Me",
     "year": 2013,
     "slug": "the-national-trouble-will-find-me",
     "cover_path": "/covers/the-national-trouble-will-find-me.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/my-bloody-valentine-loveless.md",
+    "artist": "My Bloody Valentine",
+    "album": "loveless",
+    "year": 1991,
+    "slug": "my-bloody-valentine-loveless",
+    "cover_path": "/covers/my-bloody-valentine-loveless.jpg",
     "status": "complete"
   },
   {
@@ -87,6 +105,15 @@
     "year": 1992,
     "slug": "r-e-m-automatic-for-the-people",
     "cover_path": "/covers/r-e-m-automatic-for-the-people.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-weeknd-starboy.md",
+    "artist": "The Weeknd",
+    "album": "Starboy",
+    "year": 2016,
+    "slug": "the-weeknd-starboy",
+    "cover_path": "/covers/the-weeknd-starboy.jpg",
     "status": "complete"
   },
   {
@@ -207,6 +234,15 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/mastodon-once-more-round-the-sun.md",
+    "artist": "Mastodon",
+    "album": "Once More 'Round the Sun",
+    "year": 2014,
+    "slug": "mastodon-once-more-round-the-sun",
+    "cover_path": "/covers/mastodon-once-more-round-the-sun.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/depeche-mode-violator.md",
     "artist": "Depeche Mode",
     "album": "Violator",
@@ -231,6 +267,15 @@
     "year": 2013,
     "slug": "nick-cave-the-bad-seeds-push-the-sky-away",
     "cover_path": "/covers/nick-cave-the-bad-seeds-push-the-sky-away.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/steven-wilson-hand-cannot-erase.md",
+    "artist": "Steven Wilson",
+    "album": "Hand. Cannot. Erase.",
+    "year": 2015,
+    "slug": "steven-wilson-hand-cannot-erase",
+    "cover_path": "/covers/steven-wilson-hand-cannot-erase.jpg",
     "status": "complete"
   },
   {
