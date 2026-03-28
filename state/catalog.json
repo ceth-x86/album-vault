@@ -9,6 +9,15 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/keith-jarrett-the-koln-concert.md",
+    "artist": "Keith Jarrett",
+    "album": "The K\u00f6ln Concert",
+    "year": 1975,
+    "slug": "keith-jarrett-the-k-ln-concert",
+    "cover_path": "/covers/keith-jarrett-the-k-ln-concert.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/deftones-diamond-eyes.md",
     "artist": "Deftones",
     "album": "Diamond Eyes",
@@ -54,6 +63,24 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/deafheaven-lonely-people-with-power.md",
+    "artist": "Deafheaven",
+    "album": "Lonely People with Power",
+    "year": 2025,
+    "slug": "deafheaven-lonely-people-with-power",
+    "cover_path": "/covers/deafheaven-lonely-people-with-power.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness.md",
+    "artist": "The Smashing Pumpkins",
+    "album": "Mellon Collie and the Infinite Sadness",
+    "year": 2008,
+    "slug": "the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness",
+    "cover_path": "/covers/the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/the-dillinger-escape-plan-dissociation.md",
     "artist": "The Dillinger Escape Plan",
     "album": "Dissociation",
@@ -69,6 +96,24 @@
     "year": 2006,
     "slug": "the-dear-hunter-act-i-the-lake-south-the-river-north",
     "cover_path": "/covers/the-dear-hunter-act-i-the-lake-south-the-river-north.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-cure-songs-of-a-lost-world.md",
+    "artist": "The Cure",
+    "album": "Songs of a Lost World",
+    "year": 2024,
+    "slug": "the-cure-songs-of-a-lost-world",
+    "cover_path": "/covers/the-cure-songs-of-a-lost-world.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/bjork-homogenic.md",
+    "artist": "Bj\u00f6rk",
+    "album": "Homogenic",
+    "year": 1997,
+    "slug": "bj-rk-homogenic",
+    "cover_path": "/covers/bj-rk-homogenic.jpg",
     "status": "complete"
   },
   {
@@ -144,6 +189,24 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/sprints-letter-to-self.md",
+    "artist": "Sprints",
+    "album": "Letter to Self",
+    "year": 2024,
+    "slug": "sprints-letter-to-self",
+    "cover_path": "/covers/sprints-letter-to-self.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/the-mars-volta-the-bedlam-in-goliath.md",
+    "artist": "The Mars Volta",
+    "album": "The Bedlam in Goliath",
+    "year": 2008,
+    "slug": "the-mars-volta-the-bedlam-in-goliath",
+    "cover_path": "/covers/the-mars-volta-the-bedlam-in-goliath.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/sharon-van-etten-sharon-van-etten-the-attachment-theory.md",
     "artist": "Sharon Van Etten",
     "album": "Sharon Van Etten & The Attachment Theory",
@@ -171,6 +234,24 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/pearl-jam-ten.md",
+    "artist": "Pearl Jam",
+    "album": "Ten",
+    "year": 1991,
+    "slug": "pearl-jam-ten",
+    "cover_path": "/covers/pearl-jam-ten.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/nine-inch-nails-the-downward-spiral.md",
+    "artist": "Nine Inch Nails",
+    "album": "The Downward Spiral",
+    "year": 1994,
+    "slug": "nine-inch-nails-the-downward-spiral",
+    "cover_path": "/covers/nine-inch-nails-the-downward-spiral.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/the-notwist-neon-golden.md",
     "artist": "The Notwist",
     "album": "Neon Golden",
@@ -195,6 +276,15 @@
     "year": 1997,
     "slug": "dream-theater-falling-into-infinity",
     "cover_path": "/covers/dream-theater-falling-into-infinity.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/kate-bush-the-dreaming.md",
+    "artist": "Kate Bush",
+    "album": "The Dreaming",
+    "year": 1982,
+    "slug": "kate-bush-the-dreaming",
+    "cover_path": "/covers/kate-bush-the-dreaming.jpg",
     "status": "complete"
   },
   {
@@ -261,12 +351,39 @@
     "status": "complete"
   },
   {
+    "source_file": "content/my_collection/miles-davis-bitches-brew.md",
+    "artist": "Miles Davis",
+    "album": "Bitches Brew",
+    "year": 1970,
+    "slug": "miles-davis-bitches-brew",
+    "cover_path": "/covers/miles-davis-bitches-brew.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/machine-head-the-blackening.md",
+    "artist": "Machine Head",
+    "album": "The Blackening",
+    "year": 2007,
+    "slug": "machine-head-the-blackening",
+    "cover_path": "/covers/machine-head-the-blackening.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "content/my_collection/nick-cave-the-bad-seeds-push-the-sky-away.md",
     "artist": "Nick Cave & The Bad Seeds",
     "album": "Push the Sky Away",
     "year": 2013,
     "slug": "nick-cave-the-bad-seeds-push-the-sky-away",
     "cover_path": "/covers/nick-cave-the-bad-seeds-push-the-sky-away.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/faith-no-more-the-real-thing.md",
+    "artist": "Faith No More",
+    "album": "The Real Thing",
+    "year": 1989,
+    "slug": "faith-no-more-the-real-thing",
+    "cover_path": "/covers/faith-no-more-the-real-thing.jpg",
     "status": "complete"
   },
   {
@@ -285,6 +402,15 @@
     "year": 1994,
     "slug": "low-i-could-live-in-hope",
     "cover_path": "/covers/low-i-could-live-in-hope.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "content/my_collection/tiamat-wildhoney.md",
+    "artist": "Tiamat",
+    "album": "Wildhoney",
+    "year": 1994,
+    "slug": "tiamat-wildhoney",
+    "cover_path": "/covers/tiamat-wildhoney.jpg",
     "status": "complete"
   },
   {
