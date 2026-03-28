@@ -17,6 +17,9 @@ const sortedCatalog = [...catalog].sort((a, b) => (b.year || 0) - (a.year || 0))
                 id="album-search" 
                 placeholder="Search by artist or album..." 
                 autocomplete="off"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
             />
         </div>
     </header>
@@ -49,32 +52,30 @@ const sortedCatalog = [...catalog].sort((a, b) => (b.year || 0) - (a.year || 0))
 </Layout>
 
 <script>
-    // Client-side search logic
-    const searchInput = document.getElementById('album-search') as HTMLInputElement;
-    const albumCards = document.querySelectorAll('.album-card') as NodeListOf<HTMLElement>;
+    const initSearch = () => {
+        const searchInput = document.getElementById('album-search') as HTMLInputElement;
+        const albumCards = document.querySelectorAll('.album-card') as NodeListOf<HTMLElement>;
 
-    searchInput?.addEventListener('input', (e) => {
-        const query = (e.target as HTMLInputElement).value.toLowerCase();
-        
-        albumCards.forEach(card => {
-            const artist = card.getAttribute('data-artist') || '';
-            const album = card.getAttribute('data-album') || '';
+        if (!searchInput) return;
+
+        searchInput.addEventListener('input', (e) => {
+            const query = (e.target as HTMLInputElement).value.toLowerCase();
             
-            if (artist.includes(query) || album.includes(query)) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
+            albumCards.forEach(card => {
+                const artist = card.getAttribute('data-artist') || '';
+                const album = card.getAttribute('data-album') || '';
+                
+                if (artist.includes(query) || album.includes(query)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
         });
-    });
+    };
 
-    // Re-initialize after view transitions
-    document.addEventListener('astro:after-swap', () => {
-        const newSearchInput = document.getElementById('album-search') as HTMLInputElement;
-        if (newSearchInput) {
-            newSearchInput.value = ''; // Clear search on navigation back
-        }
-    });
+    // Initialize on page load and after each navigation for View Transitions
+    document.addEventListener('astro:page-load', initSearch);
 </script>
 
 <style>
