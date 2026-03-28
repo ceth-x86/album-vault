@@ -10,11 +10,20 @@ const sortedCatalog = [...catalog].sort((a, b) => (b.year || 0) - (a.year || 0))
 	<header class="hero">
         <h1 class="main-title">ALBUM VAULT</h1>
         <p class="subtitle">A curated index of deep listening experiences.</p>
+        
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="album-search" 
+                placeholder="Search by artist or album..." 
+                autocomplete="off"
+            />
+        </div>
     </header>
 
-	<ul class="album-grid">
+	<ul class="album-grid" id="album-grid">
 		{sortedCatalog.map((album, index) => (
-			<li class="album-card">
+			<li class="album-card" data-artist={album.artist.toLowerCase()} data-album={album.album.toLowerCase()}>
 				<a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/albums/${album.slug}`}>
 					<div class="image-container">
                         <img 
@@ -39,12 +48,68 @@ const sortedCatalog = [...catalog].sort((a, b) => (b.year || 0) - (a.year || 0))
 	</ul>
 </Layout>
 
+<script>
+    // Client-side search logic
+    const searchInput = document.getElementById('album-search') as HTMLInputElement;
+    const albumCards = document.querySelectorAll('.album-card') as NodeListOf<HTMLElement>;
+
+    searchInput?.addEventListener('input', (e) => {
+        const query = (e.target as HTMLInputElement).value.toLowerCase();
+        
+        albumCards.forEach(card => {
+            const artist = card.getAttribute('data-artist') || '';
+            const album = card.getAttribute('data-album') || '';
+            
+            if (artist.includes(query) || album.includes(query)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+
+    // Re-initialize after view transitions
+    document.addEventListener('astro:after-swap', () => {
+        const newSearchInput = document.getElementById('album-search') as HTMLInputElement;
+        if (newSearchInput) {
+            newSearchInput.value = ''; // Clear search on navigation back
+        }
+    });
+</script>
+
 <style>
 	.hero {
 		text-align: center;
 		margin-bottom: 6rem;
         padding-top: 2rem;
 	}
+    .search-container {
+        margin-top: 3rem;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #album-search {
+        width: 100%;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding: 0.75rem 0;
+        color: var(--text-main);
+        font-family: var(--sans);
+        font-size: 0.9rem;
+        text-align: center;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+    #album-search:focus {
+        border-bottom-color: var(--text-main);
+    }
+    #album-search::placeholder {
+        color: var(--text-muted);
+        opacity: 0.5;
+    }
+
 	.main-title {
 		font-size: 5rem;
 		letter-spacing: -0.02em;
