@@ -4,6 +4,7 @@
     "artist": "Clipse",
     "album": "Let God Sort Em Out",
     "year": 2025,
+    "rating": null,
     "slug": "clipse-let-god-sort-em-out",
     "cover_path": "/covers/clipse-let-god-sort-em-out.jpg",
     "status": "complete"
@@ -13,6 +14,7 @@
     "artist": "Keith Jarrett",
     "album": "The K\u00f6ln Concert",
     "year": 1975,
+    "rating": null,
     "slug": "keith-jarrett-the-k-ln-concert",
     "cover_path": "/covers/keith-jarrett-the-k-ln-concert.jpg",
     "status": "complete"
@@ -22,6 +24,7 @@
     "artist": "Deftones",
     "album": "Diamond Eyes",
     "year": 2010,
+    "rating": null,
     "slug": "deftones-diamond-eyes",
     "cover_path": "/covers/deftones-diamond-eyes.jpg",
     "status": "complete"
@@ -31,6 +34,7 @@
     "artist": "The National",
     "album": "Trouble Will Find Me",
     "year": 2013,
+    "rating": null,
     "slug": "the-national-trouble-will-find-me",
     "cover_path": "/covers/the-national-trouble-will-find-me.jpg",
     "status": "complete"
@@ -40,6 +44,7 @@
     "artist": "My Bloody Valentine",
     "album": "loveless",
     "year": 1991,
+    "rating": null,
     "slug": "my-bloody-valentine-loveless",
     "cover_path": "/covers/my-bloody-valentine-loveless.jpg",
     "status": "complete"
@@ -49,6 +54,7 @@
     "artist": "Archive",
     "album": "Glass Minds",
     "year": 2026,
+    "rating": null,
     "slug": "archive-glass-minds",
     "cover_path": "/covers/archive-glass-minds.jpg",
     "status": "complete"
@@ -58,6 +64,7 @@
     "artist": "King Hannah",
     "album": "Big Swimmer",
     "year": 2024,
+    "rating": null,
     "slug": "king-hannah-big-swimmer",
     "cover_path": "/covers/king-hannah-big-swimmer.jpg",
     "status": "complete"
@@ -67,6 +74,7 @@
     "artist": "Deafheaven",
     "album": "Lonely People with Power",
     "year": 2025,
+    "rating": null,
     "slug": "deafheaven-lonely-people-with-power",
     "cover_path": "/covers/deafheaven-lonely-people-with-power.jpg",
     "status": "complete"
@@ -76,6 +84,7 @@
     "artist": "The Smashing Pumpkins",
     "album": "Mellon Collie and the Infinite Sadness",
     "year": 2008,
+    "rating": null,
     "slug": "the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness",
     "cover_path": "/covers/the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness.jpg",
     "status": "complete"
@@ -85,6 +94,7 @@
     "artist": "The Dillinger Escape Plan",
     "album": "Dissociation",
     "year": 2016,
+    "rating": null,
     "slug": "the-dillinger-escape-plan-dissociation",
     "cover_path": "/covers/the-dillinger-escape-plan-dissociation.jpg",
     "status": "complete"
@@ -94,6 +104,7 @@
     "artist": "The Dear Hunter",
     "album": "Act I: The Lake South, The River North",
     "year": 2006,
+    "rating": null,
     "slug": "the-dear-hunter-act-i-the-lake-south-the-river-north",
     "cover_path": "/covers/the-dear-hunter-act-i-the-lake-south-the-river-north.jpg",
     "status": "complete"
@@ -103,6 +114,7 @@
     "artist": "The Cure",
     "album": "Songs of a Lost World",
     "year": 2024,
+    "rating": null,
     "slug": "the-cure-songs-of-a-lost-world",
     "cover_path": "/covers/the-cure-songs-of-a-lost-world.jpg",
     "status": "complete"
@@ -112,6 +124,7 @@
     "artist": "Bj\u00f6rk",
     "album": "Homogenic",
     "year": 1997,
+    "rating": null,
     "slug": "bj-rk-homogenic",
     "cover_path": "/covers/bj-rk-homogenic.jpg",
     "status": "complete"
@@ -121,6 +134,7 @@
     "artist": "Yeah Yeah Yeahs",
     "album": "Fever To Tell",
     "year": 2003,
+    "rating": null,
     "slug": "yeah-yeah-yeahs-fever-to-tell",
     "cover_path": "/covers/yeah-yeah-yeahs-fever-to-tell.jpg",
     "status": "complete"
@@ -130,6 +144,7 @@
     "artist": "Anna von Hausswolff",
     "album": "Iconoclasts",
     "year": 2024,
+    "rating": null,
     "slug": "anna-von-hausswolff-iconoclasts",
     "cover_path": "/covers/anna-von-hausswolff-iconoclasts.jpg",
     "status": "complete"
@@ -139,6 +154,7 @@
     "artist": "Rosal\u00eda",
     "album": "LUX",
     "year": 2025,
+    "rating": null,
     "slug": "rosal-a-lux",
     "cover_path": "/covers/rosal-a-lux.jpg",
     "status": "complete"
@@ -148,6 +164,7 @@
     "artist": "R.E.M.",
     "album": "Automatic for the People",
     "year": 1992,
+    "rating": null,
     "slug": "r-e-m-automatic-for-the-people",
     "cover_path": "/covers/r-e-m-automatic-for-the-people.jpg",
     "status": "complete"
@@ -157,6 +174,7 @@
     "artist": "The Weeknd",
     "album": "Starboy",
     "year": 2016,
+    "rating": null,
     "slug": "the-weeknd-starboy",
     "cover_path": "/covers/the-weeknd-starboy.jpg",
     "status": "complete"
@@ -166,6 +184,7 @@
     "artist": "The xx",
     "album": "xx",
     "year": 2009,
+    "rating": null,
     "slug": "the-xx-xx",
     "cover_path": "/covers/the-xx-xx.jpg",
     "status": "complete"
@@ -175,6 +194,7 @@
     "artist": "Metric",
     "album": "Formentera",
     "year": 2022,
+    "rating": 4.0,
     "slug": "metric-formentera",
     "cover_path": "/covers/metric-formentera.jpg",
     "status": "complete"
@@ -184,6 +204,7 @@
     "artist": "London Grammar",
     "album": "If You Wait",
     "year": 2013,
+    "rating": null,
     "slug": "london-grammar-if-you-wait",
     "cover_path": "/covers/london-grammar-if-you-wait.jpg",
     "status": "complete"
@@ -193,6 +214,7 @@
     "artist": "Sprints",
     "album": "Letter to Self",
     "year": 2024,
+    "rating": null,
     "slug": "sprints-letter-to-self",
     "cover_path": "/covers/sprints-letter-to-self.jpg",
     "status": "complete"
@@ -202,6 +224,7 @@
     "artist": "The Mars Volta",
     "album": "The Bedlam in Goliath",
     "year": 2008,
+    "rating": null,
     "slug": "the-mars-volta-the-bedlam-in-goliath",
     "cover_path": "/covers/the-mars-volta-the-bedlam-in-goliath.jpg",
     "status": "complete"
@@ -211,6 +234,7 @@
     "artist": "Sharon Van Etten",
     "album": "Sharon Van Etten & The Attachment Theory",
     "year": 2025,
+    "rating": null,
     "slug": "sharon-van-etten-sharon-van-etten-the-attachment-theory",
     "cover_path": "/covers/sharon-van-etten-sharon-van-etten-the-attachment-theory.jpg",
     "status": "complete"
@@ -220,6 +244,7 @@
     "artist": "The Prodigy",
     "album": "Music for the Jilted Generation",
     "year": 1994,
+    "rating": null,
     "slug": "the-prodigy-music-for-the-jilted-generation",
     "cover_path": "/covers/the-prodigy-music-for-the-jilted-generation.jpg",
     "status": "complete"
@@ -229,6 +254,7 @@
     "artist": "King Crimson",
     "album": "In The Court Of The Crimson King",
     "year": 1969,
+    "rating": null,
     "slug": "king-crimson-in-the-court-of-the-crimson-king",
     "cover_path": "/covers/king-crimson-in-the-court-of-the-crimson-king.jpg",
     "status": "complete"
@@ -238,6 +264,7 @@
     "artist": "Pearl Jam",
     "album": "Ten",
     "year": 1991,
+    "rating": null,
     "slug": "pearl-jam-ten",
     "cover_path": "/covers/pearl-jam-ten.jpg",
     "status": "complete"
@@ -247,6 +274,7 @@
     "artist": "Nine Inch Nails",
     "album": "The Downward Spiral",
     "year": 1994,
+    "rating": null,
     "slug": "nine-inch-nails-the-downward-spiral",
     "cover_path": "/covers/nine-inch-nails-the-downward-spiral.jpg",
     "status": "complete"
@@ -256,6 +284,7 @@
     "artist": "The Notwist",
     "album": "Neon Golden",
     "year": 2002,
+    "rating": null,
     "slug": "the-notwist-neon-golden",
     "cover_path": "/covers/the-notwist-neon-golden.jpg",
     "status": "complete"
@@ -265,6 +294,7 @@
     "artist": "Can",
     "album": "Tago Mago",
     "year": 1971,
+    "rating": null,
     "slug": "can-tago-mago",
     "cover_path": "/covers/can-tago-mago.jpg",
     "status": "complete"
@@ -274,6 +304,7 @@
     "artist": "Dream Theater",
     "album": "Falling Into Infinity",
     "year": 1997,
+    "rating": null,
     "slug": "dream-theater-falling-into-infinity",
     "cover_path": "/covers/dream-theater-falling-into-infinity.jpg",
     "status": "complete"
@@ -283,6 +314,7 @@
     "artist": "Kate Bush",
     "album": "The Dreaming",
     "year": 1982,
+    "rating": null,
     "slug": "kate-bush-the-dreaming",
     "cover_path": "/covers/kate-bush-the-dreaming.jpg",
     "status": "complete"
@@ -292,6 +324,7 @@
     "artist": "Kanye West",
     "album": "Yeezus",
     "year": 2013,
+    "rating": null,
     "slug": "kanye-west-yeezus",
     "cover_path": "/covers/kanye-west-yeezus.jpg",
     "status": "complete"
@@ -301,6 +334,7 @@
     "artist": "Foals",
     "album": "Antidotes",
     "year": 2008,
+    "rating": null,
     "slug": "foals-antidotes",
     "cover_path": "/covers/foals-antidotes.jpg",
     "status": "complete"
@@ -310,6 +344,7 @@
     "artist": "IQ",
     "album": "Almost But Not Quite",
     "year": 2025,
+    "rating": null,
     "slug": "iq-almost-but-not-quite",
     "cover_path": "/covers/iq-almost-but-not-quite.jpg",
     "status": "complete"
@@ -319,6 +354,7 @@
     "artist": "U2",
     "album": "Pop",
     "year": 1997,
+    "rating": 4.5,
     "slug": "u2-pop",
     "cover_path": "/covers/u2-pop.jpg",
     "status": "complete"
@@ -328,6 +364,7 @@
     "artist": "Mastodon",
     "album": "Once More 'Round the Sun",
     "year": 2014,
+    "rating": null,
     "slug": "mastodon-once-more-round-the-sun",
     "cover_path": "/covers/mastodon-once-more-round-the-sun.jpg",
     "status": "complete"
@@ -337,6 +374,7 @@
     "artist": "Depeche Mode",
     "album": "Violator",
     "year": 1990,
+    "rating": null,
     "slug": "depeche-mode-violator",
     "cover_path": "/covers/depeche-mode-violator.jpg",
     "status": "complete"
@@ -346,6 +384,7 @@
     "artist": "Fates Warning",
     "album": "Parallels",
     "year": 1991,
+    "rating": null,
     "slug": "fates-warning-parallels",
     "cover_path": "/covers/fates-warning-parallels.jpg",
     "status": "complete"
@@ -355,6 +394,7 @@
     "artist": "Miles Davis",
     "album": "Bitches Brew",
     "year": 1970,
+    "rating": null,
     "slug": "miles-davis-bitches-brew",
     "cover_path": "/covers/miles-davis-bitches-brew.jpg",
     "status": "complete"
@@ -364,6 +404,7 @@
     "artist": "Machine Head",
     "album": "The Blackening",
     "year": 2007,
+    "rating": null,
     "slug": "machine-head-the-blackening",
     "cover_path": "/covers/machine-head-the-blackening.jpg",
     "status": "complete"
@@ -373,6 +414,7 @@
     "artist": "Nick Cave & The Bad Seeds",
     "album": "Push the Sky Away",
     "year": 2013,
+    "rating": null,
     "slug": "nick-cave-the-bad-seeds-push-the-sky-away",
     "cover_path": "/covers/nick-cave-the-bad-seeds-push-the-sky-away.jpg",
     "status": "complete"
@@ -382,6 +424,7 @@
     "artist": "Faith No More",
     "album": "The Real Thing",
     "year": 1989,
+    "rating": null,
     "slug": "faith-no-more-the-real-thing",
     "cover_path": "/covers/faith-no-more-the-real-thing.jpg",
     "status": "complete"
@@ -391,6 +434,7 @@
     "artist": "Steven Wilson",
     "album": "Hand. Cannot. Erase.",
     "year": 2015,
+    "rating": null,
     "slug": "steven-wilson-hand-cannot-erase",
     "cover_path": "/covers/steven-wilson-hand-cannot-erase.jpg",
     "status": "complete"
@@ -400,6 +444,7 @@
     "artist": "Low",
     "album": "I Could Live In Hope",
     "year": 1994,
+    "rating": null,
     "slug": "low-i-could-live-in-hope",
     "cover_path": "/covers/low-i-could-live-in-hope.jpg",
     "status": "complete"
@@ -409,6 +454,7 @@
     "artist": "Tiamat",
     "album": "Wildhoney",
     "year": 1994,
+    "rating": null,
     "slug": "tiamat-wildhoney",
     "cover_path": "/covers/tiamat-wildhoney.jpg",
     "status": "complete"
@@ -418,6 +464,7 @@
     "artist": "IDLES",
     "album": "TANGK",
     "year": 2024,
+    "rating": null,
     "slug": "idles-tangk",
     "cover_path": "/covers/idles-tangk.jpg",
     "status": "complete"

@@ -12,13 +12,20 @@ def parse_header_metadata(content):
     # Pattern to match "# Artist — Album (Year)"
     # Supports both standard dash "-" and long dash "—"
     match = re.search(r'^#\s*(.*?)\s*[—\-]\s*(.*?)\s*\((\d{4})\)', content)
+    metadata = {}
     if match:
-        return {
+        metadata = {
             'artist': match.group(1).strip(),
             'album': match.group(2).strip(),
             'year': int(match.group(3))
         }
-    return {}
+    
+    # Extract rating if exists: "Rate = 4.5"
+    rate_match = re.search(r'Rate\s*=\s*(\d+(\.\d+)?)', content)
+    if rate_match:
+        metadata['rating'] = float(rate_match.group(1))
+    
+    return metadata
 
 def main():
     parser = argparse.ArgumentParser(description='Scan albums from markdown files')
@@ -59,6 +66,7 @@ def main():
                     "artist": artist,
                     "album": album,
                     "year": year,
+                    "rating": metadata.get('rating'),
                     "slug": slug,
                     "cover_path": f"/covers/{cover_filename}" if os.path.exists(cover_path) else None,
                     "status": status

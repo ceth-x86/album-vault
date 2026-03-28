@@ -20,10 +20,19 @@ if (fs.existsSync(guidePath)) {
   guideContent = fs.readFileSync(guidePath, 'utf-8');
   // Strip main header
   guideContent = guideContent.replace(/^#\s.*?\n/, '');
+  // Strip rating line if exists: "Rate = 4.5"
+  guideContent = guideContent.replace(/Rate\s*=\s*\d+(\.\d+)?\n?/, '');
 }
 
 const marked = new Marked();
 const guideHtml = marked.parse(guideContent);
+
+// Helper to render rating stars
+const renderRating = (score: number) => {
+    const fullStars = Math.floor(score);
+    const hasHalfStar = score % 1 !== 0;
+    return '★'.repeat(fullStars) + (hasHalfStar ? '½' : '') + '☆'.repeat(5 - Math.ceil(score));
+};
 ---
 
 <Layout title={`${album.album} - ${album.artist}`}>
@@ -37,6 +46,12 @@ const guideHtml = marked.parse(guideContent);
                     transition:name={`cover-${album.slug}`} 
                 />
                 <div class="quick-meta">
+                    {album.rating && (
+                        <div class="rating-box">
+                            <p class="label">Rating</p>
+                            <p class="rating-value">{renderRating(album.rating)} <span class="score">{album.rating}</span></p>
+                        </div>
+                    )}
                     <p class="label">Artist</p>
                     <p class="value">{album.artist}</p>
                     <p class="label">Release Year</p>
@@ -138,6 +153,22 @@ const guideHtml = marked.parse(guideContent);
         text-transform: uppercase;
         font-size: 0.65rem;
         letter-spacing: 0.05em;
+    }
+    .rating-box {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .rating-value {
+        color: #ffcc00;
+        font-size: 1rem;
+        margin: 0.5rem 0 0;
+        letter-spacing: 0.1em;
+    }
+    .score {
+        color: var(--text-muted);
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
     }
     .label { color: var(--text-muted); margin: 1.25rem 0 0.2rem; }
     .value { color: var(--text-main); margin: 0; font-size: 0.8rem; }
