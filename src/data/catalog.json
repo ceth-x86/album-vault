@@ -256,8 +256,8 @@
     "year": 1972,
     "rating": 4.5,
     "slug": "pink-floyd-pink-floyd-at-pompeii-mcmlxxii",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/pink-floyd-pink-floyd-at-pompeii-mcmlxxii.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/rem-automatic-for-the-people.md",
@@ -386,8 +386,8 @@
     "year": 2000,
     "rating": null,
     "slug": "u2-all-that-you-can-t-leave-behind",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/u2-all-that-you-can-t-leave-behind.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/the-prodigy-music-for-the-jilted-generation.md",
