@@ -13,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const { album } = Astro.props;
-const guidePath = path.join(process.cwd(), '..', album.source_file);
+const guidePath = path.join(process.cwd(), 'src', 'data', 'reviews', path.basename(album.source_file));
 let guideContent = '';
 
 if (fs.existsSync(guidePath)) {
