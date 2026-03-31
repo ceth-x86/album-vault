@@ -1,0 +1,199 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import catalog from '../../../../state/catalog.json';
+import fs from 'node:fs';
+import path from 'node:path';
+import { Marked } from 'marked';
+
+export function getStaticPaths() {
+  return catalog.map((album) => ({
+    params: { slug: album.slug },
+    props: { album },
+  }));
+}
+
+const { album } = Astro.props;
+const guidePath = path.join(process.cwd(), '..', album.source_file);
+let guideContent = '';
+
+if (fs.existsSync(guidePath)) {
+  guideContent = fs.readFileSync(guidePath, 'utf-8');
+  // Strip main header
+  guideContent = guideContent.replace(/^#\s.*?\n/, '');
+  // Strip rating line if exists: "Rate = 4.5"
+  guideContent = guideContent.replace(/Rate\s*=\s*\d+(\.\d+)?\n?/, '');
+  
+  // Bold labels: Жанр/Genre, Лейбл/Label, Продюсер/Producer, etc.
+  guideContent = guideContent.replace(/^(Жанр|Genre|Genres|Лейбл|Label|Продюсер|Producer|Визуальный эквивалент|Сеттинг):/gm, '**$1**:');
+  
+  // Ensure "Визуальный эквивалент" and "Сеттинг" are on new paragraphs for better spacing
+  // Handles cases with trailing spaces or just a single newline
+  guideContent = guideContent.replace(/\n+(Визуальный эквивалент|Сеттинг):/g, '\n\n$1:');
+  
+  // Wrap content under "Ключевой месседж" in a blockquote
+  guideContent = guideContent.replace(/## Ключевой месседж\n\n(.*?)\n\n/g, '## Ключевой месседж\n\n> $1\n\n');
+  
+  // Transform listening guide blockquotes to list items and bold titles
+  guideContent = guideContent.replace(/^>\s+(.*?)(\s+→\s+)/gm, '* **$1**$2');
+}
+
+const marked = new Marked();
+const guideHtml = marked.parse(guideContent);
+---
+
+<Layout title={`${album.album} - ${album.artist}`}>
+	<div class="editorial-container">
+        <aside class="album-sidebar">
+            <div class="sidebar-sticky">
+                <img 
+                    src={album.cover_path ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${album.cover_path}` : `${import.meta.env.BASE_URL.replace(/\/$/, '')}/placeholder-cover.svg`} 
+                    alt={album.album}
+                    class="hero-cover"
+                    transition:name={`cover-${album.slug}`} 
+                />
+                <div class="quick-meta">
+                    {album.rating && (
+                        <div class="rating-box">
+                            <p class="label">Rating</p>
+                            <p class="value">{album.rating}</p>
+                        </div>
+                    )}
+                    <p class="label">Artist</p>
+                    <p class="value">{album.artist}</p>
+                    <p class="label">Release Year</p>
+                    <p class="value">{album.year}</p>
+                    <a href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/'} class="back-nav">← Back to archive</a>
+                </div>
+            </div>
+        </aside>
+
+        <article class="album-content">
+            <header class="content-header">
+                <h1 class="main-title">{album.album}</h1>
+            </header>
+            
+            <div class="guide-body" set:html={guideHtml} />
+        </article>
+	</div>
+</Layout>
+
+<style is:global>
+    /* Editorial Typography inside guide-body */
+    .guide-body h2 {
+        font-family: var(--serif);
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 0.75rem;
+    }
+    .guide-body p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 1.25rem;
+        color: var(--text-main);
+        opacity: 0.8;
+        font-weight: 300;
+    }
+    .guide-body blockquote {
+        margin: 2rem 0;
+        padding: 0 0 0 1.5rem;
+        font-family: var(--sans);
+        font-size: 0.95rem;
+        color: var(--text-main);
+        line-height: 1.6;
+        border-left: 1px solid var(--text-muted);
+        text-align: left;
+    }
+    .guide-body blockquote p { font-size: inherit; color: inherit; margin: 0; }
+    .guide-body strong {
+        color: var(--text-main);
+        font-weight: 600;
+    }
+    .guide-body ul {
+        list-style: none;
+        padding: 0;
+        margin: 1.5rem 0;
+    }
+    .guide-body li {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+        position: relative;
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    .guide-body li::before {
+        content: "—";
+        position: absolute;
+        left: 0;
+        color: var(--text-muted);
+        opacity: 0.5;
+    }
+</style>
+
+<style>
+	.editorial-container {
+		display: grid;
+		grid-template-columns: 320px 1fr;
+		gap: 5rem;
+        align-items: flex-start;
+        padding-bottom: 8rem;
+	}
+
+    .sidebar-sticky {
+        position: sticky;
+        top: 4rem;
+    }
+    
+    .hero-cover {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        border-radius: 2px;
+    }
+
+    .quick-meta {
+        margin-top: 2rem;
+        font-family: var(--mono);
+        text-transform: uppercase;
+        font-size: 0.65rem;
+        letter-spacing: 0.05em;
+    }
+    .rating-box {
+        margin-bottom: 1rem;
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .label { color: var(--text-muted); margin: 1.25rem 0 0.2rem; }
+    .value { color: var(--text-main); margin: 0; font-size: 0.8rem; }
+    
+    .back-nav {
+        display: inline-block;
+        margin-top: 3rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: color 0.3s;
+        font-size: 0.7rem;
+    }
+    .back-nav:hover { color: var(--text-main); }
+
+    .album-content {
+        max-width: 640px;
+    }
+    .main-title {
+        font-family: var(--mono);
+        text-transform: uppercase;
+        font-size: 4rem;
+        line-height: 0.9;
+        letter-spacing: -0.02em;
+        margin: 0 0 3rem;
+    }
+
+    @media (max-width: 1024px) {
+        .editorial-container { grid-template-columns: 1fr; gap: 3rem; }
+        .sidebar-sticky { position: static; }
+        .hero-cover { max-width: 320px; }
+        .main-title { font-size: 3.5rem; }
+    }
+</style>

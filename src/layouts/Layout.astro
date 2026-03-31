@@ -1,0 +1,104 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Album Library" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`} />
+		<meta name="generator" content={Astro.generator} />
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+        
+		<title>{title}</title>
+        <ViewTransitions />
+	</head>
+	<body>
+        <div class="grain"></div>
+		<main>
+			<slot />
+		</main>
+	</body>
+</html>
+<style is:global>
+	:root {
+		--bg-color: #0c0c0d;
+		--text-main: #f5f5f5;
+		--text-muted: #888;
+		--accent: #883aea;
+        --serif: 'Instrument Serif', serif;
+        --sans: 'Inter', sans-serif;
+        --mono: 'JetBrains Mono', monospace;
+        --grain-opacity: 0.04;
+        --border-color: rgba(255, 255, 255, 0.05);
+	}
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --bg-color: #fdfdfd;
+            --text-main: #1a1a1b;
+            --text-muted: #666;
+            --accent: #6c29c5;
+            --grain-opacity: 0.02;
+            --border-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+
+	html {
+		font-family: var(--sans);
+		background: var(--bg-color);
+        color: var(--text-main);
+        -webkit-font-smoothing: antialiased;
+        transition: background-color 0.3s ease, color 0.3s ease;
+	}
+    body {
+        margin: 0;
+        min-height: 100vh;
+    }
+    
+    /* Grain Texture Effect */
+    .grain {
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 100%;
+        pointer-events: none;
+        z-index: 999;
+        opacity: var(--grain-opacity);
+        background-image: url('/album-vault/noise.svg');
+        filter: var(--prefers-light, invert(0));
+    }
+    
+    @media (prefers-color-scheme: light) {
+        .grain {
+            filter: invert(1);
+        }
+    }
+
+    main {
+        margin: auto;
+        padding: 4rem 2rem;
+        max-width: 1200px;
+    }
+
+    h1, h2, h3 {
+        font-family: var(--serif);
+        font-weight: 400;
+    }
+
+    /* Selection styling */
+    ::selection {
+        background: var(--accent);
+        color: white;
+    }
+</style>
