@@ -380,6 +380,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/u2-all-that-you-cant-leave-behind.md",
+    "artist": "U2",
+    "album": "All That You Can't Leave Behind",
+    "year": 2000,
+    "rating": null,
+    "slug": "u2-all-that-you-can-t-leave-behind",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/the-prodigy-music-for-the-jilted-generation.md",
     "artist": "The Prodigy",
     "album": "Music for the Jilted Generation",
@@ -387,6 +397,16 @@
     "rating": 4.5,
     "slug": "the-prodigy-music-for-the-jilted-generation",
     "cover_path": "/covers/the-prodigy-music-for-the-jilted-generation.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-necks-travel.md",
+    "artist": "The Necks",
+    "album": "Travel",
+    "year": 2023,
+    "rating": null,
+    "slug": "the-necks-travel",
+    "cover_path": "/covers/the-necks-travel.jpg",
     "status": "complete"
   },
   {
@@ -480,6 +500,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/tool-10000-days.md",
+    "artist": "TOOL",
+    "album": "10,000 Days",
+    "year": 2006,
+    "rating": null,
+    "slug": "tool-10-000-days",
+    "cover_path": "/covers/tool-10-000-days.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/pvris-evergreen.md",
     "artist": "PVRIS",
     "album": "Evergreen",
@@ -517,6 +547,16 @@
     "rating": 4.0,
     "slug": "kanye-west-yeezus",
     "cover_path": "/covers/kanye-west-yeezus.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/burial-untrue.md",
+    "artist": "Burial",
+    "album": "Untrue",
+    "year": 2007,
+    "rating": null,
+    "slug": "burial-untrue",
+    "cover_path": "/covers/burial-untrue.jpg",
     "status": "complete"
   },
   {
@@ -697,6 +737,16 @@
     "rating": 4.5,
     "slug": "tiamat-wildhoney",
     "cover_path": "/covers/tiamat-wildhoney.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/turnstile-never-enough.md",
+    "artist": "Turnstile",
+    "album": "NEVER ENOUGH",
+    "year": 2025,
+    "rating": null,
+    "slug": "turnstile-never-enough",
+    "cover_path": "/covers/turnstile-never-enough.jpg",
     "status": "complete"
   },
   {
