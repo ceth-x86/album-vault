@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import catalog from '../../../state/catalog.json';
+import catalog from '../data/catalog.json';
 
 // Sort catalog by year descending
 const sortedCatalog = [...catalog].sort((a, b) => (b.year || 0) - (a.year || 0));

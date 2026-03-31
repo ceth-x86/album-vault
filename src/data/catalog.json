@@ -1,0 +1,732 @@
+[
+  {
+    "source_file": "data/public/02_reviews/collection/clipse-let-god-sort-em-out.md",
+    "artist": "Clipse",
+    "album": "Let God Sort Em Out",
+    "year": 2025,
+    "rating": null,
+    "slug": "clipse-let-god-sort-em-out",
+    "cover_path": "/covers/clipse-let-god-sort-em-out.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/keith-jarrett-the-koln-concert.md",
+    "artist": "Keith Jarrett",
+    "album": "The K\u00f6ln Concert",
+    "year": 1975,
+    "rating": 4.5,
+    "slug": "keith-jarrett-the-k-ln-concert",
+    "cover_path": "/covers/keith-jarrett-the-k-ln-concert.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/weather-systems-ocean-without-a-shore.md",
+    "artist": "Weather Systems",
+    "album": "Ocean Without A Shore",
+    "year": 2024,
+    "rating": 4.5,
+    "slug": "weather-systems-ocean-without-a-shore",
+    "cover_path": "/covers/weather-systems-ocean-without-a-shore.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/between-the-buried-and-me-colors.md",
+    "artist": "Between the Buried and Me",
+    "album": "Colors",
+    "year": 2007,
+    "rating": null,
+    "slug": "between-the-buried-and-me-colors",
+    "cover_path": "/covers/between-the-buried-and-me-colors.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/deftones-diamond-eyes.md",
+    "artist": "Deftones",
+    "album": "Diamond Eyes",
+    "year": 2010,
+    "rating": null,
+    "slug": "deftones-diamond-eyes",
+    "cover_path": "/covers/deftones-diamond-eyes.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/pink-floyd-dark-side-of-the-moon.md",
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon",
+    "year": 1973,
+    "rating": 5.0,
+    "slug": "pink-floyd-the-dark-side-of-the-moon",
+    "cover_path": "/covers/pink-floyd-the-dark-side-of-the-moon.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-national-trouble-will-find-me.md",
+    "artist": "The National",
+    "album": "Trouble Will Find Me",
+    "year": 2013,
+    "rating": 4.0,
+    "slug": "the-national-trouble-will-find-me",
+    "cover_path": "/covers/the-national-trouble-will-find-me.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/my-bloody-valentine-loveless.md",
+    "artist": "My Bloody Valentine",
+    "album": "loveless",
+    "year": 1991,
+    "rating": null,
+    "slug": "my-bloody-valentine-loveless",
+    "cover_path": "/covers/my-bloody-valentine-loveless.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/stereolab-dots-and-loops.md",
+    "artist": "Stereolab",
+    "album": "Dots and Loops",
+    "year": 1997,
+    "rating": 3.5,
+    "slug": "stereolab-dots-and-loops",
+    "cover_path": "/covers/stereolab-dots-and-loops.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/archive-glass-minds.md",
+    "artist": "Archive",
+    "album": "Glass Minds",
+    "year": 2026,
+    "rating": 4.0,
+    "slug": "archive-glass-minds",
+    "cover_path": "/covers/archive-glass-minds.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/king-hannah-big-swimmer.md",
+    "artist": "King Hannah",
+    "album": "Big Swimmer",
+    "year": 2024,
+    "rating": 4.0,
+    "slug": "king-hannah-big-swimmer",
+    "cover_path": "/covers/king-hannah-big-swimmer.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/talk-talk-spirit-of-eden.md",
+    "artist": "Talk Talk",
+    "album": "Spirit of Eden",
+    "year": 1988,
+    "rating": 5.0,
+    "slug": "talk-talk-spirit-of-eden",
+    "cover_path": "/covers/talk-talk-spirit-of-eden.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/deafheaven-lonely-people-with-power.md",
+    "artist": "Deafheaven",
+    "album": "Lonely People with Power",
+    "year": 2025,
+    "rating": 4.5,
+    "slug": "deafheaven-lonely-people-with-power",
+    "cover_path": "/covers/deafheaven-lonely-people-with-power.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness.md",
+    "artist": "The Smashing Pumpkins",
+    "album": "Mellon Collie and the Infinite Sadness",
+    "year": 2008,
+    "rating": 4.5,
+    "slug": "the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness",
+    "cover_path": "/covers/the-smashing-pumpkins-mellon-collie-and-the-infinite-sadness.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/haujobb-solutions-for-a-small-planet.md",
+    "artist": "Haujobb",
+    "album": "Solutions for a Small Planet",
+    "year": 1996,
+    "rating": 3.5,
+    "slug": "haujobb-solutions-for-a-small-planet",
+    "cover_path": "/covers/haujobb-solutions-for-a-small-planet.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/marilyn-manson-one-assassination-under-god.md",
+    "artist": "Marilyn Manson",
+    "album": "One Assassination Under God \u2013 Chapter 1",
+    "year": 2024,
+    "rating": 4.5,
+    "slug": "marilyn-manson-one-assassination-under-god-chapter-1",
+    "cover_path": "/covers/marilyn-manson-one-assassination-under-god-chapter-1.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/mazzy-star-so-tonight-that-i-might-see.md",
+    "artist": "Mazzy Star",
+    "album": "So Tonight That I Might See",
+    "year": 1993,
+    "rating": null,
+    "slug": "mazzy-star-so-tonight-that-i-might-see",
+    "cover_path": "/covers/mazzy-star-so-tonight-that-i-might-see.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-dillinger-escape-plan-dissociation.md",
+    "artist": "The Dillinger Escape Plan",
+    "album": "Dissociation",
+    "year": 2016,
+    "rating": 4.0,
+    "slug": "the-dillinger-escape-plan-dissociation",
+    "cover_path": "/covers/the-dillinger-escape-plan-dissociation.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-dear-hunter-act-i-the-lake-south-the-river-north.md",
+    "artist": "The Dear Hunter",
+    "album": "Act I: The Lake South, The River North",
+    "year": 2006,
+    "rating": null,
+    "slug": "the-dear-hunter-act-i-the-lake-south-the-river-north",
+    "cover_path": "/covers/the-dear-hunter-act-i-the-lake-south-the-river-north.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-cure-songs-of-a-lost-world.md",
+    "artist": "The Cure",
+    "album": "Songs of a Lost World",
+    "year": 2024,
+    "rating": null,
+    "slug": "the-cure-songs-of-a-lost-world",
+    "cover_path": "/covers/the-cure-songs-of-a-lost-world.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/bjork-homogenic.md",
+    "artist": "Bj\u00f6rk",
+    "album": "Homogenic",
+    "year": 1997,
+    "rating": 4.5,
+    "slug": "bj-rk-homogenic",
+    "cover_path": "/covers/bj-rk-homogenic.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/yeah-yeah-yeahs-fever-to-tell.md",
+    "artist": "Yeah Yeah Yeahs",
+    "album": "Fever To Tell",
+    "year": 2003,
+    "rating": null,
+    "slug": "yeah-yeah-yeahs-fever-to-tell",
+    "cover_path": "/covers/yeah-yeah-yeahs-fever-to-tell.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/death-grips-the-money-store.md",
+    "artist": "Death Grips",
+    "album": "The Money Store",
+    "year": 2012,
+    "rating": null,
+    "slug": "death-grips-the-money-store",
+    "cover_path": "/covers/death-grips-the-money-store.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/anna-von-hausswolff-iconoclasts.md",
+    "artist": "Anna von Hausswolff",
+    "album": "Iconoclasts",
+    "year": 2024,
+    "rating": 4.0,
+    "slug": "anna-von-hausswolff-iconoclasts",
+    "cover_path": "/covers/anna-von-hausswolff-iconoclasts.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/rosalia-lux.md",
+    "artist": "Rosal\u00eda",
+    "album": "LUX",
+    "year": 2025,
+    "rating": 4.0,
+    "slug": "rosal-a-lux",
+    "cover_path": "/covers/rosal-a-lux.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/pink-floyd-live-at-pompeii.md",
+    "artist": "Pink Floyd",
+    "album": "Pink Floyd at Pompeii - MCMLXXII",
+    "year": 1972,
+    "rating": 4.5,
+    "slug": "pink-floyd-pink-floyd-at-pompeii-mcmlxxii",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/rem-automatic-for-the-people.md",
+    "artist": "R.E.M.",
+    "album": "Automatic for the People",
+    "year": 1992,
+    "rating": 5.0,
+    "slug": "r-e-m-automatic-for-the-people",
+    "cover_path": "/covers/r-e-m-automatic-for-the-people.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-weeknd-starboy.md",
+    "artist": "The Weeknd",
+    "album": "Starboy",
+    "year": 2016,
+    "rating": null,
+    "slug": "the-weeknd-starboy",
+    "cover_path": "/covers/the-weeknd-starboy.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-xx-xx.md",
+    "artist": "The xx",
+    "album": "xx",
+    "year": 2009,
+    "rating": 4.5,
+    "slug": "the-xx-xx",
+    "cover_path": "/covers/the-xx-xx.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/pixies-doolittle.md",
+    "artist": "Pixies",
+    "album": "Doolittle",
+    "year": 1989,
+    "rating": null,
+    "slug": "pixies-doolittle",
+    "cover_path": "/covers/pixies-doolittle.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/m83-before-the-dawn-heals-us.md",
+    "artist": "M83",
+    "album": "Before The Dawn Heals Us",
+    "year": 2005,
+    "rating": 4.5,
+    "slug": "m83-before-the-dawn-heals-us",
+    "cover_path": "/covers/m83-before-the-dawn-heals-us.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/metric-formentera.md",
+    "artist": "Metric",
+    "album": "Formentera",
+    "year": 2022,
+    "rating": 4.0,
+    "slug": "metric-formentera",
+    "cover_path": "/covers/metric-formentera.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/fear-factory-demanufacture.md",
+    "artist": "Fear Factory",
+    "album": "Demanufacture",
+    "year": 1995,
+    "rating": 4.0,
+    "slug": "fear-factory-demanufacture",
+    "cover_path": "/covers/fear-factory-demanufacture.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/london-grammar-if-you-wait.md",
+    "artist": "London Grammar",
+    "album": "If You Wait",
+    "year": 2013,
+    "rating": 4.5,
+    "slug": "london-grammar-if-you-wait",
+    "cover_path": "/covers/london-grammar-if-you-wait.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/sprints-letter-to-self.md",
+    "artist": "Sprints",
+    "album": "Letter to Self",
+    "year": 2024,
+    "rating": 4.5,
+    "slug": "sprints-letter-to-self",
+    "cover_path": "/covers/sprints-letter-to-self.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/burzum-filosofem.md",
+    "artist": "Burzum",
+    "album": "Filosofem",
+    "year": 1996,
+    "rating": 4.0,
+    "slug": "burzum-filosofem",
+    "cover_path": "/covers/burzum-filosofem.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-mars-volta-the-bedlam-in-goliath.md",
+    "artist": "The Mars Volta",
+    "album": "The Bedlam in Goliath",
+    "year": 2008,
+    "rating": 4.5,
+    "slug": "the-mars-volta-the-bedlam-in-goliath",
+    "cover_path": "/covers/the-mars-volta-the-bedlam-in-goliath.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/sharon-van-etten-sharon-van-etten-the-attachment-theory.md",
+    "artist": "Sharon Van Etten",
+    "album": "Sharon Van Etten & The Attachment Theory",
+    "year": 2025,
+    "rating": 3.5,
+    "slug": "sharon-van-etten-sharon-van-etten-the-attachment-theory",
+    "cover_path": "/covers/sharon-van-etten-sharon-van-etten-the-attachment-theory.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-prodigy-music-for-the-jilted-generation.md",
+    "artist": "The Prodigy",
+    "album": "Music for the Jilted Generation",
+    "year": 1994,
+    "rating": 4.5,
+    "slug": "the-prodigy-music-for-the-jilted-generation",
+    "cover_path": "/covers/the-prodigy-music-for-the-jilted-generation.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/king-crimson-in-the-court-of-the-crimson-king.md",
+    "artist": "King Crimson",
+    "album": "In The Court Of The Crimson King",
+    "year": 1969,
+    "rating": 4.0,
+    "slug": "king-crimson-in-the-court-of-the-crimson-king",
+    "cover_path": "/covers/king-crimson-in-the-court-of-the-crimson-king.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/pearl-jam-ten.md",
+    "artist": "Pearl Jam",
+    "album": "Ten",
+    "year": 1991,
+    "rating": 5.0,
+    "slug": "pearl-jam-ten",
+    "cover_path": "/covers/pearl-jam-ten.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/sting-nothing-like-the-sun.md",
+    "artist": "Sting",
+    "album": "...Nothing Like the Sun",
+    "year": 1987,
+    "rating": 4.0,
+    "slug": "sting-nothing-like-the-sun",
+    "cover_path": "/covers/sting-nothing-like-the-sun.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/nine-inch-nails-the-downward-spiral.md",
+    "artist": "Nine Inch Nails",
+    "album": "The Downward Spiral",
+    "year": 1994,
+    "rating": 4.0,
+    "slug": "nine-inch-nails-the-downward-spiral",
+    "cover_path": "/covers/nine-inch-nails-the-downward-spiral.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/archive-you-all-look-the-same-to-me.md",
+    "artist": "Archive",
+    "album": "You All Look The Same To Me",
+    "year": 2002,
+    "rating": 5.0,
+    "slug": "archive-you-all-look-the-same-to-me",
+    "cover_path": "/covers/archive-you-all-look-the-same-to-me.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/the-notwist-neon-golden.md",
+    "artist": "The Notwist",
+    "album": "Neon Golden",
+    "year": 2002,
+    "rating": 4.0,
+    "slug": "the-notwist-neon-golden",
+    "cover_path": "/covers/the-notwist-neon-golden.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/front-line-assembly-civilization.md",
+    "artist": "Front Line Assembly",
+    "album": "Civilization",
+    "year": 2004,
+    "rating": null,
+    "slug": "front-line-assembly-civilization",
+    "cover_path": "/covers/front-line-assembly-civilization.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/can-tago-mago.md",
+    "artist": "Can",
+    "album": "Tago Mago",
+    "year": 1971,
+    "rating": 3.5,
+    "slug": "can-tago-mago",
+    "cover_path": "/covers/can-tago-mago.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/beth-gibbons-lives-outgrown.md",
+    "artist": "Beth Gibbons",
+    "album": "Lives Outgrown",
+    "year": 2024,
+    "rating": null,
+    "slug": "beth-gibbons-lives-outgrown",
+    "cover_path": "/covers/beth-gibbons-lives-outgrown.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/pvris-evergreen.md",
+    "artist": "PVRIS",
+    "album": "Evergreen",
+    "year": 2023,
+    "rating": null,
+    "slug": "pvris-evergreen",
+    "cover_path": "/covers/pvris-evergreen.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/dream-theater-falling-into-infinity.md",
+    "artist": "Dream Theater",
+    "album": "Falling Into Infinity",
+    "year": 1997,
+    "rating": 4.5,
+    "slug": "dream-theater-falling-into-infinity",
+    "cover_path": "/covers/dream-theater-falling-into-infinity.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/kate-bush-the-dreaming.md",
+    "artist": "Kate Bush",
+    "album": "The Dreaming",
+    "year": 1982,
+    "rating": 4.0,
+    "slug": "kate-bush-the-dreaming",
+    "cover_path": "/covers/kate-bush-the-dreaming.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/kanye-west-yeezus.md",
+    "artist": "Kanye West",
+    "album": "Yeezus",
+    "year": 2013,
+    "rating": 4.0,
+    "slug": "kanye-west-yeezus",
+    "cover_path": "/covers/kanye-west-yeezus.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/foals-antidotes.md",
+    "artist": "Foals",
+    "album": "Antidotes",
+    "year": 2008,
+    "rating": null,
+    "slug": "foals-antidotes",
+    "cover_path": "/covers/foals-antidotes.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/iq-almost-but-not-quite.md",
+    "artist": "IQ",
+    "album": "Almost But Not Quite",
+    "year": 2025,
+    "rating": 4.5,
+    "slug": "iq-almost-but-not-quite",
+    "cover_path": "/covers/iq-almost-but-not-quite.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/u2-pop.md",
+    "artist": "U2",
+    "album": "Pop",
+    "year": 1997,
+    "rating": 4.5,
+    "slug": "u2-pop",
+    "cover_path": "/covers/u2-pop.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/mastodon-once-more-round-the-sun.md",
+    "artist": "Mastodon",
+    "album": "Once More 'Round the Sun",
+    "year": 2014,
+    "rating": 4.0,
+    "slug": "mastodon-once-more-round-the-sun",
+    "cover_path": "/covers/mastodon-once-more-round-the-sun.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/depeche-mode-violator.md",
+    "artist": "Depeche Mode",
+    "album": "Violator",
+    "year": 1990,
+    "rating": 5.0,
+    "slug": "depeche-mode-violator",
+    "cover_path": "/covers/depeche-mode-violator.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/fates-warning-parallels.md",
+    "artist": "Fates Warning",
+    "album": "Parallels",
+    "year": 1991,
+    "rating": 4.0,
+    "slug": "fates-warning-parallels",
+    "cover_path": "/covers/fates-warning-parallels.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/miles-davis-bitches-brew.md",
+    "artist": "Miles Davis",
+    "album": "Bitches Brew",
+    "year": 1970,
+    "rating": 4.5,
+    "slug": "miles-davis-bitches-brew",
+    "cover_path": "/covers/miles-davis-bitches-brew.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/machine-head-the-blackening.md",
+    "artist": "Machine Head",
+    "album": "The Blackening",
+    "year": 2007,
+    "rating": null,
+    "slug": "machine-head-the-blackening",
+    "cover_path": "/covers/machine-head-the-blackening.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/vampire-weekend-modern-vampires-of-the-city.md",
+    "artist": "Vampire Weekend",
+    "album": "Modern Vampires of the City",
+    "year": 2013,
+    "rating": null,
+    "slug": "vampire-weekend-modern-vampires-of-the-city",
+    "cover_path": "/covers/vampire-weekend-modern-vampires-of-the-city.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/swans-the-seer.md",
+    "artist": "Swans",
+    "album": "The Seer",
+    "year": 2012,
+    "rating": null,
+    "slug": "swans-the-seer",
+    "cover_path": "/covers/swans-the-seer.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/nick-cave-the-bad-seeds-push-the-sky-away.md",
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Push the Sky Away",
+    "year": 2013,
+    "rating": 4.5,
+    "slug": "nick-cave-the-bad-seeds-push-the-sky-away",
+    "cover_path": "/covers/nick-cave-the-bad-seeds-push-the-sky-away.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/yes-close-to-the-edge.md",
+    "artist": "Yes",
+    "album": "Close to the Edge",
+    "year": 1972,
+    "rating": 4.5,
+    "slug": "yes-close-to-the-edge",
+    "cover_path": "/covers/yes-close-to-the-edge.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/faith-no-more-the-real-thing.md",
+    "artist": "Faith No More",
+    "album": "The Real Thing",
+    "year": 1989,
+    "rating": 5.0,
+    "slug": "faith-no-more-the-real-thing",
+    "cover_path": "/covers/faith-no-more-the-real-thing.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/converge-jane-doe.md",
+    "artist": "Converge",
+    "album": "Jane Doe",
+    "year": 2001,
+    "rating": null,
+    "slug": "converge-jane-doe",
+    "cover_path": "/covers/converge-jane-doe.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/steven-wilson-hand-cannot-erase.md",
+    "artist": "Steven Wilson",
+    "album": "Hand. Cannot. Erase.",
+    "year": 2015,
+    "rating": 5.0,
+    "slug": "steven-wilson-hand-cannot-erase",
+    "cover_path": "/covers/steven-wilson-hand-cannot-erase.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/peter-gabriel-so.md",
+    "artist": "Peter Gabriel",
+    "album": "So",
+    "year": 1986,
+    "rating": 4.0,
+    "slug": "peter-gabriel-so",
+    "cover_path": "/covers/peter-gabriel-so.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/low-i-could-live-in-hope.md",
+    "artist": "Low",
+    "album": "I Could Live In Hope",
+    "year": 1994,
+    "rating": 3.5,
+    "slug": "low-i-could-live-in-hope",
+    "cover_path": "/covers/low-i-could-live-in-hope.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/tiamat-wildhoney.md",
+    "artist": "Tiamat",
+    "album": "Wildhoney",
+    "year": 1994,
+    "rating": 4.5,
+    "slug": "tiamat-wildhoney",
+    "cover_path": "/covers/tiamat-wildhoney.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/wax-tailor-dusty-rainbow-from-the-dark.md",
+    "artist": "Wax Tailor",
+    "album": "Dusty Rainbow from the Dark",
+    "year": 2012,
+    "rating": null,
+    "slug": "wax-tailor-dusty-rainbow-from-the-dark",
+    "cover_path": "/covers/wax-tailor-dusty-rainbow-from-the-dark.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/bryan-ferry-boys-and-girls.md",
+    "artist": "Bryan Ferry",
+    "album": "Boys and Girls",
+    "year": 1985,
+    "rating": 4.0,
+    "slug": "bryan-ferry-boys-and-girls",
+    "cover_path": "/covers/bryan-ferry-boys-and-girls.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/idles-tangk.md",
+    "artist": "IDLES",
+    "album": "TANGK",
+    "year": 2024,
+    "rating": null,
+    "slug": "idles-tangk",
+    "cover_path": "/covers/idles-tangk.jpg",
+    "status": "complete"
+  }
+]
