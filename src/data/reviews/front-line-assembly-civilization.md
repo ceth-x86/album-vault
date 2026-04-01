@@ -4,7 +4,8 @@
 Лейбл: Metropolis, Synthetic Symphony  
 Продюсер: Bill Leeb, Rhys Fulber  
 
-**RYM:** 3.35/5 · **AOTY User Score:** 70/100
+**RYM:** 3.35/5 · **AOTY User Score:** 70/100  
+Rate = 4.5  
 
 ## Контекст
 
