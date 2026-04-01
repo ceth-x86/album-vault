@@ -110,6 +110,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/rem-out-of-time.md",
+    "artist": "R.E.M.",
+    "album": "Out Of Time",
+    "year": 1991,
+    "rating": null,
+    "slug": "r-e-m-out-of-time",
+    "cover_path": "/covers/r-e-m-out-of-time.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/talk-talk-spirit-of-eden.md",
     "artist": "Talk Talk",
     "album": "Spirit of Eden",
@@ -210,6 +220,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/opeth-blackwater-park.md",
+    "artist": "Opeth",
+    "album": "Blackwater Park",
+    "year": 2001,
+    "rating": null,
+    "slug": "opeth-blackwater-park",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/yeah-yeah-yeahs-fever-to-tell.md",
     "artist": "Yeah Yeah Yeahs",
     "album": "Fever To Tell",
@@ -248,6 +268,16 @@
     "slug": "rosal-a-lux",
     "cover_path": "/covers/rosal-a-lux.jpg",
     "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/linkin-park-meteora.md",
+    "artist": "Linkin Park",
+    "album": "Meteora",
+    "year": 2003,
+    "rating": null,
+    "slug": "linkin-park-meteora",
+    "cover_path": null,
+    "status": "needs_review"
   },
   {
     "source_file": "data/public/02_reviews/collection/pink-floyd-live-at-pompeii.md",
@@ -310,6 +340,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars.md",
+    "artist": "David Bowie",
+    "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "year": 1972,
+    "rating": 4.5,
+    "slug": "david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars",
+    "cover_path": "/covers/david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/metric-formentera.md",
     "artist": "Metric",
     "album": "Formentera",
@@ -347,6 +387,26 @@
     "rating": 4.5,
     "slug": "sprints-letter-to-self",
     "cover_path": "/covers/sprints-letter-to-self.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/dark-tranquillity-the-gallery.md",
+    "artist": "Dark Tranquillity",
+    "album": "The Gallery",
+    "year": 1995,
+    "rating": null,
+    "slug": "dark-tranquillity-the-gallery",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/riverside-second-life-syndrome.md",
+    "artist": "Riverside",
+    "album": "Second Life Syndrome",
+    "year": 2005,
+    "rating": null,
+    "slug": "riverside-second-life-syndrome",
+    "cover_path": "/covers/riverside-second-life-syndrome.jpg",
     "status": "complete"
   },
   {
@@ -390,6 +450,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/muse-origin-of-symmetry.md",
+    "artist": "Muse",
+    "album": "Origin of Symmetry",
+    "year": 2001,
+    "rating": null,
+    "slug": "muse-origin-of-symmetry",
+    "cover_path": "/covers/muse-origin-of-symmetry.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/the-prodigy-music-for-the-jilted-generation.md",
     "artist": "The Prodigy",
     "album": "Music for the Jilted Generation",
@@ -407,6 +477,16 @@
     "rating": null,
     "slug": "the-necks-travel",
     "cover_path": "/covers/the-necks-travel.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/red-hot-chili-peppers-blood-sugar-sex-magik.md",
+    "artist": "Red Hot Chili Peppers",
+    "album": "Blood Sugar Sex Magik",
+    "year": 1991,
+    "rating": null,
+    "slug": "red-hot-chili-peppers-blood-sugar-sex-magik",
+    "cover_path": "/covers/red-hot-chili-peppers-blood-sugar-sex-magik.jpg",
     "status": "complete"
   },
   {
@@ -474,7 +554,7 @@
     "artist": "Front Line Assembly",
     "album": "Civilization",
     "year": 2004,
-    "rating": null,
+    "rating": 4.5,
     "slug": "front-line-assembly-civilization",
     "cover_path": "/covers/front-line-assembly-civilization.jpg",
     "status": "complete"
@@ -570,6 +650,26 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/steven-wilson-the-overview.md",
+    "artist": "Steven Wilson",
+    "album": "The Overview",
+    "year": 2025,
+    "rating": null,
+    "slug": "steven-wilson-the-overview",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/squid-cowards.md",
+    "artist": "Squid",
+    "album": "Cowards",
+    "year": 2025,
+    "rating": null,
+    "slug": "squid-cowards",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/iq-almost-but-not-quite.md",
     "artist": "IQ",
     "album": "Almost But Not Quite",
@@ -577,6 +677,16 @@
     "rating": 4.5,
     "slug": "iq-almost-but-not-quite",
     "cover_path": "/covers/iq-almost-but-not-quite.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/porcupine-tree-in-absentia.md",
+    "artist": "Porcupine Tree",
+    "album": "In Absentia",
+    "year": 2002,
+    "rating": null,
+    "slug": "porcupine-tree-in-absentia",
+    "cover_path": "/covers/porcupine-tree-in-absentia.jpg",
     "status": "complete"
   },
   {
@@ -620,6 +730,46 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/autechre-basscadet-mixes.md",
+    "artist": "Autechre",
+    "album": "Basscadet Mixes",
+    "year": 1994,
+    "rating": null,
+    "slug": "autechre-basscadet-mixes",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/placebo-without-you-im-nothing.md",
+    "artist": "Placebo",
+    "album": "Without You I'm Nothing",
+    "year": 1998,
+    "rating": null,
+    "slug": "placebo-without-you-i-m-nothing",
+    "cover_path": "/covers/placebo-without-you-i-m-nothing.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/queen-innuendo.md",
+    "artist": "Queen",
+    "album": "Innuendo",
+    "year": 1991,
+    "rating": null,
+    "slug": "queen-innuendo",
+    "cover_path": "/covers/queen-innuendo.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/led-zeppelin-led-zeppelin-iv.md",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin IV",
+    "year": 1971,
+    "rating": null,
+    "slug": "led-zeppelin-led-zeppelin-iv",
+    "cover_path": null,
+    "status": "needs_review"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/miles-davis-bitches-brew.md",
     "artist": "Miles Davis",
     "album": "Bitches Brew",
@@ -660,6 +810,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/guns-n-roses-use-your-illusion-ii.md",
+    "artist": "Guns N' Roses",
+    "album": "Use Your Illusion II",
+    "year": 1991,
+    "rating": null,
+    "slug": "guns-n-roses-use-your-illusion-ii",
+    "cover_path": "/covers/guns-n-roses-use-your-illusion-ii.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/nick-cave-the-bad-seeds-push-the-sky-away.md",
     "artist": "Nick Cave & The Bad Seeds",
     "album": "Push the Sky Away",
@@ -687,6 +847,16 @@
     "rating": 5.0,
     "slug": "faith-no-more-the-real-thing",
     "cover_path": "/covers/faith-no-more-the-real-thing.jpg",
+    "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/metallica-master-of-puppets.md",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "rating": 4.5,
+    "slug": "metallica-master-of-puppets",
+    "cover_path": "/covers/metallica-master-of-puppets.jpg",
     "status": "complete"
   },
   {
