@@ -160,6 +160,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/lana-del-rey-born-to-die.md",
+    "artist": "Lana Del Rey",
+    "album": "Born To Die",
+    "year": 2012,
+    "rating": null,
+    "slug": "lana-del-rey-born-to-die",
+    "cover_path": "/covers/lana-del-rey-born-to-die.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/marilyn-manson-one-assassination-under-god.md",
     "artist": "Marilyn Manson",
     "album": "One Assassination Under God \u2013 Chapter 1",
@@ -220,14 +230,24 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/raye-this-music-may-contain-hope.md",
+    "artist": "RAYE",
+    "album": "THIS MUSIC MAY CONTAIN HOPE.",
+    "year": 2026,
+    "rating": null,
+    "slug": "raye-this-music-may-contain-hope",
+    "cover_path": "/covers/raye-this-music-may-contain-hope.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/opeth-blackwater-park.md",
     "artist": "Opeth",
     "album": "Blackwater Park",
     "year": 2001,
     "rating": null,
     "slug": "opeth-blackwater-park",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/opeth-blackwater-park.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/yeah-yeah-yeahs-fever-to-tell.md",
@@ -276,8 +296,8 @@
     "year": 2003,
     "rating": null,
     "slug": "linkin-park-meteora",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/linkin-park-meteora.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/pink-floyd-live-at-pompeii.md",
@@ -396,8 +416,8 @@
     "year": 1995,
     "rating": null,
     "slug": "dark-tranquillity-the-gallery",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/dark-tranquillity-the-gallery.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/riverside-second-life-syndrome.md",
@@ -500,6 +520,16 @@
     "status": "complete"
   },
   {
+    "source_file": "data/public/02_reviews/collection/katatonia-viva-emptiness.md",
+    "artist": "Katatonia",
+    "album": "Viva Emptiness",
+    "year": 2003,
+    "rating": 4.0,
+    "slug": "katatonia-viva-emptiness",
+    "cover_path": "/covers/katatonia-viva-emptiness.jpg",
+    "status": "complete"
+  },
+  {
     "source_file": "data/public/02_reviews/collection/pearl-jam-ten.md",
     "artist": "Pearl Jam",
     "album": "Ten",
@@ -508,6 +538,16 @@
     "slug": "pearl-jam-ten",
     "cover_path": "/covers/pearl-jam-ten.jpg",
     "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/lamb-of-god-ashes-of-the-wake.md",
+    "artist": "Lamb of God",
+    "album": "Ashes of the Wake",
+    "year": 2004,
+    "rating": null,
+    "slug": "lamb-of-god-ashes-of-the-wake",
+    "cover_path": null,
+    "status": "needs_review"
   },
   {
     "source_file": "data/public/02_reviews/collection/sting-nothing-like-the-sun.md",
@@ -656,8 +696,8 @@
     "year": 2025,
     "rating": null,
     "slug": "steven-wilson-the-overview",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/steven-wilson-the-overview.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/squid-cowards.md",
@@ -666,8 +706,8 @@
     "year": 2025,
     "rating": null,
     "slug": "squid-cowards",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/squid-cowards.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/iq-almost-but-not-quite.md",
@@ -766,8 +806,8 @@
     "year": 1971,
     "rating": null,
     "slug": "led-zeppelin-led-zeppelin-iv",
-    "cover_path": null,
-    "status": "needs_review"
+    "cover_path": "/covers/led-zeppelin-led-zeppelin-iv.jpg",
+    "status": "complete"
   },
   {
     "source_file": "data/public/02_reviews/collection/miles-davis-bitches-brew.md",
@@ -808,6 +848,16 @@
     "slug": "swans-the-seer",
     "cover_path": "/covers/swans-the-seer.jpg",
     "status": "complete"
+  },
+  {
+    "source_file": "data/public/02_reviews/collection/deftones-white-pony.md",
+    "artist": "Deftones",
+    "album": "White Pony",
+    "year": 2000,
+    "rating": 4.5,
+    "slug": "deftones-white-pony",
+    "cover_path": null,
+    "status": "needs_review"
   },
   {
     "source_file": "data/public/02_reviews/collection/guns-n-roses-use-your-illusion-ii.md",
